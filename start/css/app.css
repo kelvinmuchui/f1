@@ -43,6 +43,9 @@
 .menu--titania .menu__item {
 	margin: 0;
 }
+#intro{
+    background-image: url(../img/background1.jpeg)
+}
 
 .menu--titania .menu__link {
 	width: 120px;
