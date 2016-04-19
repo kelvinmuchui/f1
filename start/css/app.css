@@ -18,7 +18,9 @@
 	display: block;
 	margin: 12px ;
 }
-
+.juliet{
+    position: fixed;
+}
 .menu__link {
 	font-size: 1.05em;
 	font-weight: bold;
@@ -214,4 +216,8 @@ h6{
     border-right: thick double #ff0000;
 
 
+}
+#form{
+
+    margin-left: 30%
 }
