@@ -8,9 +8,10 @@
       <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700' rel='stylesheet' type='text/css'>
 
 
-
+<link rel="stylesheet" type="text/css" href="css/set1.css" />
 	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
 	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+      <script src="js/snap.svg-min.js"></script>
 	<script src="js/modernizr.js"></script> <!-- Modernizr -->
       <link rel="stylesheet" type="text/css" href="css/components.css" />
     <link rel="stylesheet" href="css/foundation.css">
@@ -45,73 +46,87 @@
 	</section> <!-- cd-intro -->
           </div>
     <div class="row">
-  <div class=" large- 6 small-6 columns" id="about">
+  <div class=" large-6 small-12 columns" id="about">
         <h1>About us</h1>
       <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.  </p>
         </div>
-  <div class="small-6 columns" id="image">
+  <div class=" large-6 small-12 columns" id="image">
 
         <h1>more</h1>
       <img src="img/websites.jpg">
         </div>
 </div>
       <div class="row">
-	<ul class="grid cs-style-3">
-		<li>
-			<figure>
-				<img src="img/fastfood.png" alt="img04">
-				<figcaption>
-					<h3>Settings</h3>
-					<span>Jacob Cummings</span>
-					<a href="#">Take a look</a>
-				</figcaption>
-			</figure>
-		</li>
-		<li>
-			<figure>
-				<img src="img/hotel.png" alt="img04">
-				<figcaption>
-					<h3>Settings</h3>
-					<span>Jacob Cummings</span>
-					<a href="#">Take a look</a>
-				</figcaption>
-			</figure>
-		</li>
-		<li>
-			<figure>
-				<img src="img/skeis.png" alt="img04">
-				<figcaption>
-					<h3>Settings</h3>
-					<span>Jacob Cummings</span>
-					<a href="#">Take a look</a>
-				</figcaption>
-			</figure>
-		</li>
-        <li>
-			<figure>
-				<img src="img/watoi.png" alt="img04">
-				<figcaption>
-					<h3>Settings</h3>
-					<span>Jacob Cummings</span>
-					<a href="#">Take a look</a>
-				</figcaption>
-			</figure>
-		</li>
-
-	</ul></div>
+	<section id="grid" class="grid clearfix">
+				<a href="#" data-path-hover="m 180,34.57627 -180,0 L 0,0 180,0 z">
+					<figure>
+						<img src="img/watoi.png" />
+						<svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="M 180,160 0,218 0,0 180,0 z"/></svg>
+						<figcaption>
+							<h2>Watoto kumi</h2>
+							<p>Soko radicchio bunya nuts gram dulse.</p>
+							<button>View</button>
+						</figcaption>
+					</figure>
+				</a>
+				<a href="#" data-path-hover="m 180,34.57627 -180,0 L 0,0 180,0 z">
+					<figure>
+						<img src="img/fastfood.png" />
+						<svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="M 180,160 0,218 0,0 180,0 z"/></svg>
+						<figcaption>
+							<h2>Fastfood</h2>
+							<p>Two greens tigernut soybean radish.</p>
+							<button>View</button>
+						</figcaption>
+					</figure>
+				</a>
+				<a href="#" data-path-hover="m 180,34.57627 -180,0 L 0,0 180,0 z">
+					<figure>
+						<img src="img/hotel.png" />
+						<svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="M 180,160 0,218 0,0 180,0 z"/></svg>
+						<figcaption>
+							<h2>Hotel website</h2>
+							<p>Beetroot water spinach okra water.</p>
+							<button>View</button>
+						</figcaption>
+					</figure>
+				</a>
+				<a href="#" data-path-hover="m 180,34.57627 -180,0 L 0,0 180,0 z">
+					<figure>
+						<img>
+						<svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="M 180,160 0,218 0,0 180,0 z"/></svg>
+						<figcaption>
+							<h2>Serene</h2>
+							<p>Water spinach arugula pea tatsoi.</p>
+							<button>View</button>
+						</figcaption>
+					</figure>
+				</a>
+					</div>
      <div class="row">
   <div class="large-3 columns"><!-- ... --></div>
   <div class="large-6 columns" id="form">
-      <h2>Contact Us</h2>
-      <form action="https://formspree.io/muchuikelvin423@gmail.com"  method="POST">
-
-						<label>Name: <input type="text" id="name1" name="name" placeholder="Enter your name" /></label>
-						<label>Email: <input type="email" id="email" name="email" placeholder="Enter your email address" /></label>
-						<label>Telephone: <input type="telephone" id="telephone" name="telephone" placeholder="Enter telephone number" /></label>
-						<label>Message: <textarea id="message" name="message"></textarea></label>
-						<input type="submit" value="Send message" />
-					</form>
-
+     <section class="content">
+				<h2>Contact  us</h2>
+				<span class="input input--ichiro">
+					<input class="input__field input__field--ichiro" type="text" id="input-25" />
+					<label class="input__label input__label--ichiro" for="input-25">
+						<span class="input__label-content input__label-content--ichiro">Name</span>
+					</label>
+				</span>
+				<span class="input input--ichiro">
+					<input class="input__field input__field--ichiro" type="text" id="input-26" />
+					<label class="input__label input__label--ichiro" for="input-26">
+						<span class="input__label-content input__label-content--ichiro">Email</span>
+					</label>
+				</span>
+				<span class="input input--ichiro">
+					<input class="input__field input__field--ichiro" type="text" id="input-27" />
+					<label class="input__label input__label--ichiro" for="input-27">
+						<span class="input__label-content input__label-content--ichiro">Messege</span>
+					</label>
+				</span>
+			</section>
          </div>
   <div class="large-3 columns"><!-- ... --></div>
 </div>
@@ -152,6 +167,70 @@
 				});
 			});
 		})(window);
+		</script>
+      <script>
+			(function() {
+
+				function init() {
+					var speed = 250,
+						easing = mina.easeinout;
+
+					[].slice.call ( document.querySelectorAll( '#grid > a' ) ).forEach( function( el ) {
+						var s = Snap( el.querySelector( 'svg' ) ), path = s.select( 'path' ),
+							pathConfig = {
+								from : path.attr( 'd' ),
+								to : el.getAttribute( 'data-path-hover' )
+							};
+
+						el.addEventListener( 'mouseenter', function() {
+							path.animate( { 'path' : pathConfig.to }, speed, easing );
+						} );
+
+						el.addEventListener( 'mouseleave', function() {
+							path.animate( { 'path' : pathConfig.from }, speed, easing );
+						} );
+					} );
+				}
+
+				init();
+
+			})();
+		</script>
+          <script src="js/classie2.js"></script>
+		<script>
+			(function() {
+				// trim polyfill : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim
+				if (!String.prototype.trim) {
+					(function() {
+						// Make sure we trim BOM and NBSP
+						var rtrim = /^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g;
+						String.prototype.trim = function() {
+							return this.replace(rtrim, '');
+						};
+					})();
+				}
+
+				[].slice.call( document.querySelectorAll( 'input.input__field' ) ).forEach( function( inputEl ) {
+					// in case the input is already filled..
+					if( inputEl.value.trim() !== '' ) {
+						classie.add( inputEl.parentNode, 'input--filled' );
+					}
+
+					// events:
+					inputEl.addEventListener( 'focus', onInputFocus );
+					inputEl.addEventListener( 'blur', onInputBlur );
+				} );
+
+				function onInputFocus( ev ) {
+					classie.add( ev.target.parentNode, 'input--filled' );
+				}
+
+				function onInputBlur( ev ) {
+					if( ev.target.value.trim() === '' ) {
+						classie.remove( ev.target.parentNode, 'input--filled' );
+					}
+				}
+			})();
 		</script>
       <script src="/CaptionHoverEffects/js/toucheffects.js"></script>
     <script src="js/vendor/jquery.js"></script>
